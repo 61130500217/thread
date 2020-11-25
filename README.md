@@ -4,3 +4,5 @@ This project is the internship homework for DEK-D, and  able to develop in the n
 
 Using (XAMPP running apache server)
 open the console --> start apache--> clone project folder into htdocs folder in xampp --> open the file index --> enjoy creating the thread :)
+
+//i hope that it will help more on people who starting on PHP, but you may have more skill on this field than me though.lol
