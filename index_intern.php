@@ -3,15 +3,27 @@
 <style>
 .error {color: #FF0000;}
 .topicname {color: green;}
-.content {color: greenyellow;}
+.content {
+     color: greenyellow;
+     }
+p {margin: 200}
+footer {
+     color: pink;
+     text-align: center;
+     }
 .result {
      display: flex;
      align-items: center;
      flex-direction: column;
      border-style: solid ;
      margin: 15%;
+     padding: 100;
 }
+h1 {
+     color: grey;
+     text-align: center;}
 body {
+     background-color: black;
      position: relative;
 }
 .kratooh { 
@@ -72,7 +84,7 @@ function checkhtml($name) {
     <span class="error">* <?php echo $errmsghead;?></span>
     <br>
     <h2 class="content"> Content: </h2> <br>
-    <input type="text" name="bodytopic"/>
+    <textarea type="comment" name="bodytopic" rows="5" cols="40"></textarea>
     <span class="error">* <?php echo $errmsgbody;?></span><br><br>
     <botton><input type="submit" name="submit"></botton>
   </form>
@@ -89,6 +101,9 @@ if( $checkcontent == True & $checkname == True ) {
 }
 
 ?>
+<footer>
+     <p>Thank you for playing :)</p>
+</footer>
 </body>
 
 </html>
